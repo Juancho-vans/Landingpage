@@ -1,3 +1,39 @@
 .jumbotron {
-  background-image: url("bosque.jpg")
+  background-image: url("fondo.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+
+.color_texto_gris {
+  color: #edefff;
+}
+
+.contenedor {
+  border: 1px solid red;
+  margin: 5px;
+}
+
+.row {
+  border: 1px solid green;
+  margin: 2px;
+  justify-content: center;
+
+}
+
+.col {
+  border: 1px solid blue;
+  margin: 2px;
+  text-align: center;
+  padding: 0;
+}
+
+.rejilla {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 200px 200px 200px;
+  justify-content: center;
+  grid-row-gap: 10px;
+  grid-column-gap: 10px;
+  margin: 1px solid red;
 }
